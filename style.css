@@ -1,0 +1,83 @@
+/* add your CSS here */
+html {
+  font-family: arial, serif, sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  body{background-color: blue;}
+}
+
+.mytitle{
+  font-style: italic;
+  color: blue;
+  background-color: red;
+}
+
+.header{
+  background-color: blue;
+}
+
+.Project{
+  font-style: italic;
+  color: red;
+}
+
+.mikepic{
+  width: 30%;
+  height: 30%;
+}
+
+.projectimage{
+  width: 30%;
+  height: 30%;
+}
+
+/* CONTAINERS */
+
+.image-container{
+  background-color: green;
+}
+
+.mywork-container{
+  /* background-color: green; */
+}
+
+/* hr {
+  border: 3px solid;
+} */
+/*
+*#Animal-Card{
+  border: 2px solid;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 5px 5px gray;
+}
+
+.Animal-Name{
+  font-style: italic;
+}
+
+.Picture{
+  width: 300px;
+}
+
+.Animal-Information{
+  padding: 10px;
+  border: 1px solid
+}
+
+.interesting-fact{
+  font-style: italic;
+
+}
+
+.list{
+  list-style: none;
+  padding-left: 0;
+}
+
+.line{
+  font-weight: bold;
+}
+
+.description */

@@ -1,20 +1,16 @@
 /* add your CSS here */
 html {
-  font-family: arial, serif, sans-serif;
-}
-
-@media screen and (max-width: 500px) {
-  body{background-color: blue;}
+  font-family: 'Roboto', sans-serif;
 }
 
 .mytitle{
   font-style: italic;
   color: blue;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .header{
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .Project{
@@ -28,19 +24,41 @@ html {
 }
 
 .projectimage{
-  width: 30%;
-  height: 30%;
+  width: 60%;
+  height: 40%;
 }
 
 /* CONTAINERS */
 
 .image-container{
-  background-color: green;
+  /* background-color: green; */
 }
 
 .mywork-container{
   /* background-color: green; */
+    display: flex;
+    /* flex-wrap: wrap; */
 }
+
+.body{
+  /* background-color: red; */
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+  body{background-color: blue;}
+}
+
+/* @media screen and (min-width: 800px) { */
+  /* body{background-color: red;} */
+}
+
+
+
+
+
+/* ---------------- */
 
 /* hr {
   border: 3px solid;

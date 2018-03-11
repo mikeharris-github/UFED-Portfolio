@@ -19,13 +19,16 @@ html {
 }
 
 .mikepic{
-  width: 30%;
-  height: 30%;
+  max-width: 100%;
+  /* width: 30%;
+  height: 30%; */
+
 }
 
 .projectimage{
-  width: 60%;
-  height: 40%;
+  max-width: 100%
+  /* width: 60%;
+  height: 40%; */
 }
 
 /* CONTAINERS */
@@ -40,8 +43,21 @@ html {
     /* flex-wrap: wrap; */
 }
 
-.body{
-  /* background-color: red; */
+.worktext-cotainer{
+  max-width: 200px;
+}
+
+.project1-container{
+  background-color: green;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.project2-container{
+  background-color: red;
+}
+
+.project3-container{
+  background-color: blue;
 }
 
 /* MEDIA QUERIES */

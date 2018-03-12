@@ -1,20 +1,23 @@
 /* add your CSS here */
 html {
   font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .mytitle{
   font-style: italic;
   color: blue;
+  text-align: center;
   /* background-color: red; */
 }
 
 .header{
-  /* background-color: blue; */
+  text-align: center;
 }
 
 .Project{
-  font-style: italic;
+  /* font-style: italic; */
   color: red;
 }
 
@@ -22,7 +25,6 @@ html {
   max-width: 100%;
   /* width: 30%;
   height: 30%; */
-
 }
 
 .projectimage{
@@ -33,6 +35,10 @@ html {
 
 /* CONTAINERS */
 
+.body-container{
+  text-align: center;
+}
+
 .image-container{
   /* background-color: green; */
 }
@@ -40,24 +46,35 @@ html {
 .mywork-container{
   /* background-color: green; */
     display: flex;
+    padding: 10px;
     /* flex-wrap: wrap; */
 }
 
-.worktext-cotainer{
-  max-width: 200px;
+.worktext-container{
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100%;
+  /* text-align: center; */
 }
 
 .project1-container{
   background-color: green;
+  padding: 10px;
     /* display: flex; */
     /* flex-wrap: wrap; */
 }
 .project2-container{
   background-color: red;
+  padding: 10px;
+
 }
 
 .project3-container{
   background-color: blue;
+  padding: 10px;
+  text-align: center;
+
 }
 
 /* MEDIA QUERIES */
